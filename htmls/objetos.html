@@ -1,0 +1,118 @@
+<html>
+
+<head>
+    <title>SCP - Objetos SCP</title>
+    <link rel="shortcut icon" href="Imagenes/logo.ico">
+    <link rel="stylesheet" type="text/css" href="../csss/style.css">
+    <link rel="stylesheet" type="text/css" href="../csss/style-cajas.css">
+    <link rel="stylesheet" type=text/css; href="../csss/style-responsive.css">
+    <script src="../js/main.js"></script>
+
+</head>
+
+<body>
+<header id="mihead">
+<img src="../Imagenes/scp.png">
+<H1>SCP</H1>
+<img src="../Imagenes/scp.png">
+</header>
+<nav>
+    <nav id="minav">
+        <input type="checkbox" id="btn-menu">
+        <label for="btn-menu"><img src="..\Imagenes\icon.png" width="100%" alt=""></label>
+        <ul class="a">
+            <li><a href="exploracion.html">EXPLORACION</a></li>
+            <li><a href="investigacion.html">INVESTIGACIÓN</a></li>
+            <li><a href="">OBJETOS SCP</a></li>
+            <li><a href="../index.html">INICIO</a></li>
+            <li><a href="seguridad.html">SEGURIDAD</a></li>
+            <li><a href="documentos.html">ARCHIVOS</a></li>
+            <li><a href="nosotros.html">ACERCA DE NOSOTROS</a></li>
+        </ul>
+    </nav>
+    <section>
+        <script>document.write(a)</script>
+        <div>
+            <h2>Objetos SCP</h2>
+            <p>Los objetos SCP abarcan una amplia gama de elementos, desde objetos inanimados hasta seres vivos o entidades conscientes. Pueden ser cualquier cosa, desde una simple piedra hasta una criatura misteriosa con habilidades extraordinarias. Cada
+                objeto SCP se identifica con un número único, como SCP-173 o SCP-682, que sirve para distinguirlo y clasificarlo dentro de la Fundación SCP.</p>
+            <p>Cada objeto SCP se documenta detalladamente en informes y archivos que describen sus características, propiedades anómalas, comportamiento, orígenes y cualquier efecto o riesgo asociado. Además, se establecen rigurosos procedimientos de contención
+                y seguridad para evitar su liberación o uso indebido.</p>
+            <p>La Fundación SCP se encarga de estudiar, contener y proteger estos objetos SCP para salvaguardar la seguridad de la humanidad. La contención puede variar desde almacenar un objeto en una caja sellada y vigilada hasta mantenerlo en instalaciones
+                especiales con medidas de seguridad extremas. El objetivo principal es prevenir la exposición de los objetos SCP al público en general y evitar que sus efectos se salgan de control.</p>
+            <p>A continuación se muestra una lista de algunos de los objetos SCP más destacados y populares en el universo SCP. Cada objeto SCP tiene un número de identificación único y está acompañado de una breve descripción. Puedes hacer clic en los enlaces
+                para acceder a las páginas individuales de cada objeto y obtener información más detallada.</p>
+        </div>
+        <div class="section">
+            <article>
+                <h2>SCP-173</h2>
+                <p>Una estatua de concreto animada que se vuelve extremadamente peligrosa cuando no se le observa directamente.</p>
+                <a href="">Enlace a la página del objeto SCP-173</a>
+            </article>
+
+            <article>
+                <h2>SCP-682</h2>
+                <p>Una criatura reptiliana extremadamente resistente y agresiva, con capacidad de adaptación rápida. Es considerado uno de los SCP más difíciles de contener.</p>
+                <a href="">Enlace a la página del objeto SCP-682</a>
+            </article>
+
+            <article>
+                <h2>SCP-049</h2>
+                <p>Un ser humanoide con una apariencia similar a un médico del siglo XVIII, que posee la capacidad de "curar" a las personas convirtiéndolas en una versión zombificada.</p>
+                <a href="">Enlace a la página del objeto SCP-049</a>
+            </article>
+
+            <article>
+                <h2>SCP-914</h2>
+                <p>Una máquina de refinamiento capaz de alterar y mejorar objetos colocados en su interior, mediante diferentes configuraciones.</p>
+                <a href="">Enlace a la página del objeto SCP-914</a>
+            </article>
+
+            <article>
+                <h2>SCP-096</h2>
+                <p>Un ser humanoide extremadamente sensible a cualquier intento de observación visual directa, y que muestra una respuesta violenta hacia aquellos que lo ven.</p>
+                <a href="">Enlace a la página del objeto SCP-096</a>
+            </article>
+
+            <article>
+                <h2>SCP-106</h2>
+                <p>Una entidad que puede atravesar cualquier material sólido y arrastrar a sus víctimas a una dimensión de bolsillo conocida como "El Bolsillo".</p>
+                <a href="">Enlace a la página del objeto SCP-106</a>
+            </article>
+
+            <article>
+                <h2>SCP-999</h2>
+                <p>Una criatura gelatinosa y amigable con una naturaleza extremadamente benevolente. Tiene la capacidad de provocar una sensación de felicidad y curar heridas emocionales.</p>
+                <a href="">Enlace a la página del objeto SCP-999</a>
+            </article>
+        </div>
+    </section>
+    <script>
+        const articles = document.querySelectorAll('.section article');
+        articles.forEach(article => {
+            const link = article.querySelector('a');
+            if (link) {
+                link.addEventListener('click', (event) => {
+                    if (!link.getAttribute('href') || link.getAttribute('href') === '#') {
+                        event.preventDefault(); 
+                        alert('Por el momento no hay pagina');
+                    }
+                });
+            }
+        });
+    </script>
+    
+    
+    
+    
+    
+
+    </section>
+    <footer>
+        <div>
+            <p>Copyright (c) 2050 Company Name All Rights Reserved This product is protected by copyright and distributed under licenses restricting copying, distribution, and decompilation.</p>
+        </div>
+    </footer>
+</body>
+
+</html>

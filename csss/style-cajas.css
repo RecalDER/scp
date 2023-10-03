@@ -1,0 +1,46 @@
+.section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.section article {
+    transition: background-color 1s ease;
+    opacity: 0.5;
+    background-color: #203d5b;
+    color: #ffffff;
+    margin: 20px;
+    padding: 30px;
+    height: 250px;
+    width: 250px;
+    overflow-y: scroll;
+}
+
+.section article:hover {
+    opacity: 1;
+}
+
+.section article::-webkit-scrollbar {
+    background-color: #203d5b;
+    border-radius: 10px;
+}
+
+article h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+article p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+article a {
+    color: #ff6d6d;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+header h1 {
+    margin: 0;
+}
