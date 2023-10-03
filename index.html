@@ -1,0 +1,75 @@
+<html>
+
+<head>
+    <title>SCP</title>
+    <link rel="shortcut icon" href="Imagenes/logo.ico">
+    <link rel="stylesheet" type=text/css; href="csss/style.css">
+    <link rel="stylesheet" type=text/css; href="csss/style-responsive.css">
+    <script src="js/main.js"></script>
+</head>
+
+<body>
+    <header id="mihead">
+        <img src="Imagenes/scp.png">
+        <H1>SCP</H1>
+        <img src="Imagenes/scp.png">
+    </header>
+    <nav id="minav">
+        <input type="checkbox" id="btn-menu">
+        <label for="btn-menu"><img src="Imagenes\icon.png" width="100%" alt=""></label>
+        <ul class="a">
+            <li><a href="htmls/exploracion.html">EXPLORACION</a></li>
+            <li><a href="htmls/investigacion.html">INVESTIGACIÓN</a></li>
+            <li><a href="htmls/objetos.html">OBJETOS SCP</a></li>
+            <li><a href="">INICIO</a></li>
+            <li><a href="htmls/seguridad.html">SEGURIDAD</a></li>
+            <li><a href="htmls/documentos.html">ARCHIVOS</a></li>
+            <li><a href="htmls/nosotros.html">ACERCA DE NOSOTROS</a></li>
+            <li></li>
+        </ul>
+    </nav>
+
+    <section >
+        <div>
+            <h2><p>¡Bienvenido!</p>
+              </h2>
+            <div id="contenedor">
+                <img src="Imagenes/SCP-0.jpg">
+            </div>
+            <p>La Fundación SCP es una organización ficticia dedicada a la contención, investigación y protección de objetos, entidades y fenómenos anómalos, conocidos como SCP (Special Containment Procedures). Estos SCP representan una amplia variedad de
+                objetos y seres con propiedades y características fuera de lo común, que desafían las leyes naturales y plantean riesgos potenciales para la humanidad.
+            </p>
+            <p>
+                El propósito principal de la Fundación SCP es salvaguardar la seguridad de la humanidad al contener y estudiar estos SCP, así como desarrollar protocolos y medidas de seguridad para prevenir su liberación o uso indebido. La Fundación opera en el más absoluto
+                secreto, evitando que el conocimiento público sobre los SCP se propague y cause pánico o desorden.
+            </p>
+            <p>
+                El universo SCP es un entorno ficticio donde la Fundación SCP trabaja en colaboración con otras organizaciones, como la Coalición Oculta Global (GOC) y la Iglesia del Dios Roto, para proteger a la humanidad de los SCP y mantener la normalidad en el mundo.
+                En este universo, los SCP son clasificados en diferentes niveles de peligrosidad y se aplican rigurosos procedimientos de contención y estudio para evitar que sus efectos se salgan de control.
+            </p>
+            <p>Cada objeto SCP tiene un número de identificación único y se presenta con documentación detallada que describe sus características, orígenes, propiedades y medidas de contención. Algunos SCP son objetos inanimados, mientras que otros son seres
+                vivos o entidades conscientes con habilidades extraordinarias.
+            </p>
+            <p>El universo SCP se caracteriza por su naturaleza colaborativa y creativa, donde escritores y fanáticos contribuyen a la expansión del canon de SCP, creando nuevos objetos SCP, historias, informes y explorando los aspectos más oscuros y misteriosos
+                de este mundo anómalo.¿
+            </p>
+        </div>
+        
+    </section>
+    <script>function mostrarHora() {
+        var reloj = document.getElementById("reloj");
+        var fecha = new Date();
+        var hora = fecha.getHours();
+        var minutos = fecha.getMinutes();
+        var segundos = fecha.getSeconds();
+        reloj.innerHTML = hora + ":" + minutos + ":" + segundos;
+        setTimeout(mostrarHora, 1000);
+    }
+    </script>
+    <footer>
+        <div>
+            <p>Copyright (c) 2050 Company Name All Rights Reserved This product is protected by copyright and distributed under licenses restricting copying, distribution, and decompilation.</p>
+        </div>
+    </footer>
+</body>
+</html>
